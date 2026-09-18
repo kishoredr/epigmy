@@ -16,7 +16,7 @@ class CreateCustomers < ActiveRecord::Migration
     	t.string :nominee_relation
     	t.date :nominee_date_of_birth
     	t.text :nominee_address
-    	t.integer :account_balance, :limit => 10]
+    	t.integer :account_balance, :limit => 10
     	t.date :account_create_date 
     	t.boolean :active_class
 
